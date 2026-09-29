@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "合作设备共享预约",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "设备提供院校",
+    "使用院校",
+    "指导教师"
+  ],
+  "states": [
+    "申请",
+    "暂占",
+    "确认",
+    "使用",
+    "释放"
+  ],
+  "invariants": [
+    "组合资源",
+    "维护窗口",
+    "跨时区",
+    "过期恢复"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-020-A",
+      "actor": "设备提供院校",
+      "state": "申请"
+    },
+    {
+      "case_id": "09303-020-B",
+      "actor": "指导教师",
+      "state": "暂占"
+    }
+  ],
+  "tags": [
+    "equipment-sharing",
+    "composite-booking"
+  ]
+}
